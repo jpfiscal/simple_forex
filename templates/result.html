@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %}Forex Converter{% endblock %}
+{% block content %}
+    <display id="result_display">The Result is {{result}}</display>
+    <form action="/forex_form">
+        <input type="submit" value="Return">
+    </form>
+    
+{% endblock %}
